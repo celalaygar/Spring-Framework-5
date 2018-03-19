@@ -1,8 +1,8 @@
 # Spring_Framework_5_denemeleri
 
 ## - 	spring-mvc-hibernate
-this project consist insert update delete methods with hibernate in spring framework 5
-first step : listen to me for spring-mvc-hibernate project. write the sql query into mysql workbench for mysql database
+this project consist insert update delete methods with hibernate in spring framework 5.
+First step : write the sql query into mysql workbench for mysql database
 ##### SQL QUERY
 ```
 CREATE DATABASE IF NOT EXISTS `ogrenci_schema`;
@@ -24,3 +24,4 @@ INSERT INTO `student` VALUES
 (4,'Veli','Sezer','veli@gmail.com'),
 (5,'Seda','sakin','seda@gmail.com');
 ```
+second step : run the project with anything server like tomcat wildfly on eclipse  
