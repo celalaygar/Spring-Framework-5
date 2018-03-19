@@ -5,6 +5,7 @@ java spring framework 5, hibernate and bootstrap 4
 first step : 
 write the sql query into mysql workbench for mysql database
 
+```
 CREATE DATABASE IF NOT EXISTS `ogrenci_schema`;
 
 USE `ogrenci_schema`;
@@ -23,3 +24,4 @@ INSERT INTO `student` VALUES
 (3,'Mustafa','Agbaba','mustafa@gmail.com'),
 (4,'Veli','Sezer','veli@gmail.com'),
 (5,'Seda','sakin','seda@gmail.com');
+```
