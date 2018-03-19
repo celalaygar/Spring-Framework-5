@@ -2,9 +2,10 @@
 # how to use ? 
 java spring framework 5, hibernate and bootstrap 4
 
-first step : 
-write the sql query into mysql workbench for mysql database
-
+## - 	spring-mvc-hibernate
+this project consist insert update delete methods with hibernate in spring framework 5.
+##### First step : write the sql query into mysql workbench for mysql database
+##### SQL QUERY
 ```
 CREATE DATABASE IF NOT EXISTS `ogrenci_schema`;
 
@@ -25,3 +26,4 @@ INSERT INTO `student` VALUES
 (4,'Veli','Sezer','veli@gmail.com'),
 (5,'Seda','sakin','seda@gmail.com');
 ```
+##### Second step : run the project with anything server like tomcat wildfly on eclipse  
