@@ -1,5 +1,5 @@
 # Spring_Framework_5_denemeleri
-first step : listen to me for spring-mvc-hibernate project. write the sql query onto mysql workbench for mysql database
+first step : listen to me for spring-mvc-hibernate project. write the sql query into mysql workbench for mysql database
 # SQL QUERY
 ```
 CREATE DATABASE IF NOT EXISTS `ogrenci_schema`;
