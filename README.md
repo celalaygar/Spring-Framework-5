@@ -24,4 +24,4 @@ INSERT INTO `student` VALUES
 (4,'Veli','Sezer','veli@gmail.com'),
 (5,'Seda','sakin','seda@gmail.com');
 ```
-##### second step : run the project with anything server like tomcat wildfly on eclipse  
+##### Second step : run the project with anything server like tomcat wildfly on eclipse  
