@@ -1,10 +1,7 @@
 # Spring_Framework_5_denemeleri
-
-
-
-first step : listen to me for spring-mvc-hibernate project
-write the sql query onto mysql workbench for mysql database
-
+first step : listen to me for spring-mvc-hibernate project. write the sql query onto mysql workbench for mysql database
+# SQL QUERY
+```
 CREATE DATABASE IF NOT EXISTS `ogrenci_schema`;
 
 USE `ogrenci_schema`;
@@ -23,3 +20,4 @@ INSERT INTO `student` VALUES
 (3,'Mustafa','Agbaba','mustafa@gmail.com'),
 (4,'Veli','Sezer','veli@gmail.com'),
 (5,'Seda','sakin','seda@gmail.com');
+```
