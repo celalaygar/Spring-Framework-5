@@ -3,7 +3,7 @@
 ## - 	spring-mvc-hibernate
 this project consist insert update delete methods with hibernate in spring framework 5
 first step : listen to me for spring-mvc-hibernate project. write the sql query into mysql workbench for mysql database
-#### SQL QUERY
+##### SQL QUERY
 ```
 CREATE DATABASE IF NOT EXISTS `ogrenci_schema`;
 
