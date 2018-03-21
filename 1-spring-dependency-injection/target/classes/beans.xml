@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+
+	<bean id="classA" class="com.mimararslan.A"></bean>
+	<bean id="classB" class="com.mimararslan.B">
+		<constructor-arg ref="classA"></constructor-arg>
+	</bean>
+	<bean id="classC" class="com.mimararslan.C">
+		<constructor-arg ref="classB"></constructor-arg>
+		<property name="name" value="Haci Celal Aygar"></property>
+		<property name="sayi" value="13"></property>
+		<constructor-arg name="name" value="fatih terim"></constructor-arg>
+		<constructor-arg name="sayi" value="1905"></constructor-arg>
+	</bean>
+</beans>
