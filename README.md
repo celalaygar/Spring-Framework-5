@@ -1,6 +1,8 @@
 # Spring_Framework_5_denemeleri
+## 1 - 	spring-framework dependency injection example
+this project is about spring dependency injection
 
-## - 	spring-mvc-hibernate
+## 2 - 	spring-mvc-hibernate
 this project consist insert update delete methods with hibernate in spring framework 5.
 ##### First step : write the sql query into mysql workbench for mysql database
 ##### SQL QUERY
