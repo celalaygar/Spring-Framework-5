@@ -6,13 +6,13 @@
 
 
 	<bean id="student" class="com.mimararslan.Student">
-		<property name="isim" value="Fatih terim"></property>
-		<property name="telNo" value="+905554443322"></property>
-		<property name="yas" value="22"></property>
+		<property name="isim" value="Fatih terim" />
+		<property name="telNo" value="+905554443322" />
+		<property name="yas" value="22" />
 		<property name="okul">
 
 			<bean id="okul" class="com.mimararslan.Okul">
-				<property name="okulIsmi" value="atatürk lisesi"></property>
+				<property name="okulIsmi" value="atatürk lisesi"/>
 				<property name="adres">
 					<bean id="adres" class="com.mimararslan.Adres">
 						<property name="il" value="Ankara"></property>
