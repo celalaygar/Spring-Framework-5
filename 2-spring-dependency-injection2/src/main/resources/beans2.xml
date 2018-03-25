@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:p="http://www.springframework.org/schema/p"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+
+<!-- 
+	<bean id="student" class="com.mimararslan.Student">
+		<property name="isim" value="Fatih terim" />
+		<property name="telNo" value="+905554443322" />
+		<property name="yas" value="22" />
+		<property name="okul">
+			<bean id="okul" class="com.mimararslan.Okul">
+				<property name="okulIsmi" value="atatürk lisesi"/>
+				<property name="adres">
+					<bean id="adres" class="com.mimararslan.Adres">
+						<property name="il" value="Ankara"></property>
+						<property name="ilce" value="Yenimahalle"></property>
+
+					</bean>
+				</property>
+			</bean>
+		</property>
+	</bean> -->
+	<bean id="student" class="com.mimararslan.Student" 
+		p:isim="Fatih Terim"
+		p:yas="22"
+		p:telNo="+905552223311"
+		p:okul-ref="okul"
+	/>
+	
+	<bean id="okul" class="com.mimararslan.Okul">
+		<property name="okulIsmi" value="atatürk lisesi"/>
+		<property name="adres">
+			<bean id="adres" class="com.mimararslan.Adres">
+				<property name="il" value="Ankara"></property>
+				<property name="ilce" value="Yenimahalle"></property>
+
+			</bean>
+		</property>
+	</bean>
+	
+</beans>
