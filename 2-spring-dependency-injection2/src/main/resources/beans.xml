@@ -6,7 +6,7 @@
 
 
 	<bean id="student" class="com.mimararslan.Student">
-		<property name="isim" value="Fatih terim" />
+		<property name="isim" value="Hacı Celal Aygar" />
 		<property name="telNo" value="+905554443322" />
 		<property name="yas" value="22" />
 		<property name="okul">
