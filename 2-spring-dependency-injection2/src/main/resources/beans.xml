@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+
+
+	<bean id="student" class="com.mimararslan.Student">
+		<property name="isim" value="Fatih terim"></property>
+		<property name="telNo" value="+905554443322"></property>
+		<property name="yas" value="22"></property>
+		<property name="okul">
+
+			<bean id="okul" class="com.mimararslan.Okul">
+				<property name="okulIsmi" value="atatürk lisesi"></property>
+				<property name="adres">
+					<bean id="adres" class="com.mimararslan.Adres">
+						<property name="il" value="Ankara"></property>
+						<property name="ilce" value="Yenimahalle"></property>
+
+					</bean>
+				</property>
+			</bean>
+		</property>
+	</bean>
+
+</beans>
