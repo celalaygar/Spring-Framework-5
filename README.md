@@ -18,8 +18,9 @@ first step: click context checkbox in beanx.xml->namespaces.
 second step : then we write 
 ```
 <context:annotation-config></context:annotation-config> 
-
-between <beans></beans> ``` in beans.xml 
+between <beans></beans> 
+``` 
+in beans.xml 
  	
 ##  - 	spring-mvc-hibernate
 this project consist insert update delete methods with hibernate in spring framework 5.
