@@ -13,9 +13,9 @@
 
 ## 4 - spring-annotations(b)
 ##### this project is about spring annotations 2. 
-######  @Autowired and @Qualifier("...") usage
-####### first step: click context checkbox in beanx.xml->namespaces. 
-####### second step : then we have to write 
+######  @Autowired and @Qualifier("...") usage.
+###### - first step: click context checkbox in beanx.xml->namespaces. 
+###### - second step : then we have to write 
 ```
 <beans>
     <context:annotation-config></context:annotation-config> 
