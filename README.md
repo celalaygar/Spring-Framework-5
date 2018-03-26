@@ -9,7 +9,11 @@
 
 ## 3 - spring-annotations
 ##### this project is about spring annotations 1. 
-###### we create and design the beans.xml. then use init-methods and param methods in bean.xml 
+###### we create and design the beans.xml. then use init-methods and param methods in bean.xml
+
+## 4 - spring-annotations
+##### this project is about spring annotations 2. 
+######  @Autowired and @Qualifier("...") usage
 
  	
 ##  - 	spring-mvc-hibernate
