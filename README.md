@@ -7,14 +7,15 @@
 ##### this project is about spring dependency injection. 
 ###### we create and design the beans.xml and beans2.xml file. We run the latest project with beans.xml and beans2.xml respectively
 
-## 3 - spring-annotations
+## 3 - spring-annotations(a)
 ##### this project is about spring annotations 1. 
 ###### we create and design the beans.xml. then use init-methods and param methods in bean.xml
 
-## 4 - spring-annotations
+## 4 - spring-annotations(b)
 ##### this project is about spring annotations 2. 
 ######  @Autowired and @Qualifier("...") usage
-
+first step: click context checkbox in beanx.xml->namespaces. 
+second step : then we write <context:annotation-config></context:annotation-config> between <beans></beans> in beans.xml
  	
 ##  - 	spring-mvc-hibernate
 this project consist insert update delete methods with hibernate in spring framework 5.
