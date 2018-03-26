@@ -15,10 +15,14 @@
 ##### this project is about spring annotations 2. 
 ######  @Autowired and @Qualifier("...") usage
 first step: click context checkbox in beanx.xml->namespaces. 
-second step : then we write 
+second step : then we have to write 
 ```
-<context:annotation-config></context:annotation-config> 
-between <beans></beans> 
+<beans>
+    <context:annotation-config></context:annotation-config> 
+    ......
+    ....
+    ..
+</beans> 
 ``` 
 in beans.xml 
  	
