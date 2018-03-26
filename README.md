@@ -1,16 +1,15 @@
 # Spring_Framework_5_denemeleri
-### 1 - spring-framework dependency injection example
+#### 1 - spring-framework dependency injection example
 ###### this project is about spring dependency injection.  we are creating a maven project. We include the spring-context.jar in the pom.xml file. then we create and design the beans.xml file. We run the latest project
 
-### 2 - spring-framework dependency injection example 
+#### 2 - spring-framework dependency injection example 
 ###### this project is about spring dependency injection. we create and design the beans.xml and beans2.xml file. We run the latest project with beans.xml and beans2.xml respectively
 
-### 3 - spring-annotations(a)
+#### 3 - spring-annotations(a)
 ###### this project is about spring annotations 1. we create and design the beans.xml. then use init-methods and param methods in bean.xml
 
-### 4 - spring-annotations(b)
-##### this project is about spring annotations 2. 
-######  @Autowired and @Qualifier("...") usage.
+#### 4 - spring-annotations(b)
+######   this project is about spring annotations 2.  @Autowired and @Qualifier("...") usage.
 ###### - first step: click context checkbox in beanx.xml->namespaces. 
 ###### - second step : then we have to write 
 ```
@@ -23,7 +22,7 @@
 ``` 
 in beans.xml 
  	
-### - spring-mvc-hibernate
+#### - spring-mvc-hibernate
 this project consist insert update delete methods with hibernate in spring framework 5.
 ##### First step : write the sql query into mysql workbench for mysql database
 ##### SQL QUERY
