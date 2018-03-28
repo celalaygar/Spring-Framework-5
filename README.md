@@ -6,10 +6,10 @@
 ###### this project is about spring dependency injection. we create and design the beans.xml and beans2.xml file. We run the latest project with beans.xml and beans2.xml respectively
 
 #### 3 - spring-annotations(a)
-###### this project is about spring annotations 1. we create and design the beans.xml. then use init-methods and param methods in bean.xml
+###### this project is about spring annotations(a). we create and design the beans.xml. then use init-methods and param methods in bean.xml
 
 #### 4 - spring-annotations(b)
-######   this project is about spring annotations 2.  @Autowired and @Qualifier("...") usage.
+######   this project is about spring annotations(b).  @Autowired and @Qualifier("...") usage.
 ###### - first step: click context checkbox in beanx.xml->namespaces. 
 ###### - second step : then we have to write 
 ```
