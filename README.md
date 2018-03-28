@@ -14,6 +14,7 @@
 ###### - second step : then we have to write 
 ```
 <beans>
+    <!--we have to write this line <onctext...... -->
     <context:annotation-config></context:annotation-config> 
     ......
     ....
