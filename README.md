@@ -10,8 +10,8 @@
 
 #### 4 - spring-annotations(b)
    this project is about spring annotations(b).  @Autowired and @Qualifier("...") usage.
-####### - first step: click context checkbox in beanx.xml->namespaces. 
-####### - second step : then we have to write 
+###### - first step: click context checkbox in beanx.xml->namespaces. 
+###### - second step : then we have to write 
 ```
 <beans>
     <!--we have to write this line <onctext...... -->
@@ -47,4 +47,4 @@ INSERT INTO `student` VALUES
 (4,'Veli','Sezer','veli@gmail.com'),
 (5,'Seda','sakin','seda@gmail.com');
 ```
-##### Second step : run the project with anything server like tomcat wildfly on eclipse  
+###### Second step : run the project with anything server like tomcat wildfly on eclipse  
