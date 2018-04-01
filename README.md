@@ -24,7 +24,7 @@
 in beans.xml 
  	
 #### - spring-mvc-hibernate
-this project consist insert update delete methods with hibernate in spring framework 5.
+this project consist (insert, update and delete) methods with hibernate and spring framework 5.
 ###### First step : write the sql query into mysql workbench for mysql database
 ##### SQL QUERY
 ```
