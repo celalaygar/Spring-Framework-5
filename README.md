@@ -1,6 +1,6 @@
 # Spring_Framework_5_denemeleri
 #### 1 - spring-framework dependency injection example
-###### this project is about spring dependency injection.  we are creating a maven project. We include the spring-context.jar in the pom.xml file. then we create and design the beans.xml file. We run the latest project
+###### this project is about spring dependency injection.  we are creating a maven project. We include the spring-context.jar in the pom.xml file. then we create and design the beans.xml file. We run latest the project
 
 #### 2 - spring-framework dependency injection example 
 ###### this project is about spring dependency injection. we create and design the beans.xml and beans2.xml file. We run the latest project with beans.xml and beans2.xml respectively
