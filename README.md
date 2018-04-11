@@ -23,7 +23,7 @@
 ``` 
 in beans.xml 
 
-#### 4 - spring-jdbc-1
+#### 5 - spring-jdbc-1
 ###### First step : write the sql query into mysql workbench for mysql database
 ##### SQL QUERY
 ```
