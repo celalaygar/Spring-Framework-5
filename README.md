@@ -22,6 +22,9 @@
 </beans> 
 ``` 
 in beans.xml 
+#### 5 - springmvc-RequestMapping
+ how to use @PathVariable | @RequestParam
+
 
 #### 5 - spring-jdbc-1
 ###### First step : write the sql query into mysql workbench for mysql database
