@@ -26,7 +26,7 @@ in beans.xml
  how to use @PathVariable | @RequestParam
 
 
-#### spring-jdbc-1
+#### - spring-jdbc-1
 ###### First step : write the sql query into mysql workbench for mysql database
 ##### SQL QUERY
 ```
