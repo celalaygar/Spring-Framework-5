@@ -27,6 +27,7 @@ in beans.xml
 
 
 #### - spring-jdbc-1
+how to delete, update, select data for spring framework in maven project
 ###### First step : write the sql query into mysql workbench for mysql database
 ##### SQL QUERY
 ```
