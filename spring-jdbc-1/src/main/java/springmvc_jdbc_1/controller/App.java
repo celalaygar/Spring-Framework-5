@@ -18,7 +18,6 @@ public class App
     	studentdao.addStudent(student);
     	
     	student=new Student("soysal fatih","durmaz","soysal_durmaz@gmail.com","soysal123");
-
     	
     	studentdao.updateStudent(student, 2);
     	System.out.println("Search id-------------------------------------------------------");
