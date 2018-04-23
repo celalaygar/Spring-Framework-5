@@ -17,6 +17,22 @@ public class App
     	
     	studentdao.addStudent(student);
     	
+    	student=new Student("soysal fatih","durmaz","soysal_durmaz@gmail.com","soysal123");
+
+    	
+    	studentdao.updateStudent(student, 2);
+    	System.out.println("Search id-------------------------------------------------------");
+    	studentdao.deleteStudent(3);
+    	System.out.println("Search id-------------------------------------------------------");
+
+    	for (Student newStudent : studentdao.getAllStudent()) {
+			System.out.println(newStudent.getId()+
+					" "+newStudent.getFirst_name()+
+					" "+newStudent.getLast_name()+
+					" "+newStudent.getEmail()+
+					" "+newStudent.getPassword());
+		}
+    	
     	System.out.println("Search id-------------------------------------------------------");
     	student=studentdao.searchId(6);
     	studentdao.writerResult(student);
