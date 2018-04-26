@@ -14,16 +14,20 @@ public class App
     	Student student=new Student("kemal", "sunal", "kemal@gmail.com","kemalsunal");
     	
     	StudentDAOImp studentdao=context.getBean("studentDAO",StudentDAOImp.class);
-    	
+    	//insert data
     	studentdao.addStudent(student);
     	
     	student=new Student("soysal fatih","durmaz","soysal_durmaz@gmail.com","soysal123");
     	
+	//update data
     	studentdao.updateStudent(student, 2);
-    	System.out.println("Search id-------------------------------------------------------");
-    	studentdao.deleteStudent(3);
-    	System.out.println("Search id-------------------------------------------------------");
-
+    	System.out.println("-------------------------------------------------------");
+    	
+	//delete data
+	studentdao.deleteStudent(3);
+    	System.out.println("-------------------------------------------------------");
+	
+	//select all data
     	for (Student newStudent : studentdao.getAllStudent()) {
 			System.out.println(newStudent.getId()+
 					" "+newStudent.getFirst_name()+
@@ -31,8 +35,9 @@ public class App
 					" "+newStudent.getEmail()+
 					" "+newStudent.getPassword());
 		}
-    	
-    	System.out.println("Search id-------------------------------------------------------");
+    	System.out.println("-------------------------------------------------------");    	
+	
+	//select single data
     	student=studentdao.searchId(6);
     	studentdao.writerResult(student);
     	
