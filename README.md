@@ -25,6 +25,8 @@ in beans.xml
 #### 5 - springmvc-RequestMapping
  how to use @PathVariable | @RequestParam
 
+#### 6 - springmvc-FomrHandling(a)
+how to use <form:input ... />, <form:textarea .../>, <form:checkboxes...../> for spring mvc....
 
 #### - spring-jdbc-1
 how to delete, update, select data for spring framework in maven project
