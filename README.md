@@ -25,7 +25,7 @@ in beans.xml
 #### 5 - springmvc-RequestMapping
  how to use @PathVariable | @RequestParam
 
-#### 6 - springmvc-FomrHandling(a)
+#### 6 - springmvc-FormHandling(a)
 how to use <form:input ... />, <form:textarea .../>, <form:checkboxes...../> for spring mvc....
 
 #### - spring-jdbc-1
