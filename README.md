@@ -28,6 +28,9 @@ in beans.xml
 #### 6 - springmvc-FormHandling(a)
 how to use <form:input ... />, <form:textarea .../>, <form:checkboxes...../> for spring mvc....
 
+#### 7 - springmvc-FormHandling(b)
+how to use <form:select.../>, <form:radiobutton.../>, <form:radiobuttons..../>, for spring mvc...
+
 #### - spring-jdbc-1
 how to delete, update, select data for spring framework in maven project
 ###### First step : write the sql query into mysql workbench for mysql database
