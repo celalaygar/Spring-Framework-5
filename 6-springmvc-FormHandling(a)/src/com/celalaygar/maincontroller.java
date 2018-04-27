@@ -28,11 +28,6 @@ public class maincontroller {
 		return "main";
 	}
 
-	@RequestMapping("/search")
-	public String search() {
-
-		return "search";
-	}
 
 	@RequestMapping("/showPersonelForm")
 	public String showStudentForm(Model theModel) {
