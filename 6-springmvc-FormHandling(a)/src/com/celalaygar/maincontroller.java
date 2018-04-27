@@ -38,7 +38,7 @@ public class maincontroller {
 	public String showStudentForm(Model theModel) {
 
 		Personel personel = new Personel();
-		personel.setPhoneModel((new String []{"Samsung","›phone","Sony"}));
+		personel.setPhoneModel((new String []{"Samsung","√ùphone","Sony"}));
 		theModel.addAttribute("personel", personel);
 		return "PersonelForm";
 	}
@@ -51,14 +51,14 @@ public class maincontroller {
 		theModel.addAttribute("phoneModel", personel.getPhoneModel());
 		return "PersonelSaveResult";
 	}
-    @ModelAttribute("phoneList")
-    public List<String> getWebFrameworkList() {
-       List<String> phoneList = new ArrayList<String>();
-       phoneList.add("Samsung");
-	   phoneList.add("›phone");
-	   phoneList.add("Sony");
-	   phoneList.add("Nokia");
-	   phoneList.add("Huawei");
-       return phoneList;
-    }
+    	@ModelAttribute("phoneList")
+    	public List<String> getWebFrameworkList() {
+		List<String> phoneList = new ArrayList<String>();
+		phoneList.add("Samsung");
+		phoneList.add("√ùphone");
+		phoneList.add("Sony");
+		phoneList.add("Nokia");
+		phoneList.add("Huawei");
+		return phoneList;
+	}
 }
