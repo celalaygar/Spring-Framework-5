@@ -30,19 +30,13 @@ public class maincontroller {
 		return "main";
 	}
 
-	@RequestMapping("/search")
-	public String search() {
-
-		return "search";
-	}
-
 	@RequestMapping("/showPersonelForm")
 	public String showStudentForm(Model theModel) {
 
 		Personel personel = new Personel();
 		
 		//default checked phoneModel
-		personel.setPhoneModel((new String []{"Samsung","›phone"}));
+		personel.setPhoneModel((new String []{"Samsung","√ùphone"}));
 		personel.setGender("M");
 		theModel.addAttribute("personel", personel);
 		return "PersonelForm";
@@ -61,7 +55,7 @@ public class maincontroller {
     public List<String> getWebFrameworkList() {
        List<String> phoneList = new ArrayList<String>();
        phoneList.add("Samsung");
-	   phoneList.add("›phone");
+	   phoneList.add("√ùphone");
 	   phoneList.add("Sony");
 	   phoneList.add("Nokia");
 	   phoneList.add("Huawei");
@@ -70,13 +64,13 @@ public class maincontroller {
     @ModelAttribute("countryList")
     public Map<String, String> getCountryList() {
        Map<String, String> countryList = new HashMap<String, String>();
-       countryList.put("US", "AMER›KA");
+       countryList.put("US", "AMER√ùKA");
        countryList.put("DE", "ALMANYA");
-       countryList.put("IT", "›TALYA");
+       countryList.put("IT", "√ùTALYA");
        countryList.put("QA", "KATAR");
-       countryList.put("CH", "«›N");
-       countryList.put("SG", "S›NGAPUR");
-       countryList.put("TR", "T‹RK›YE");
+       countryList.put("CH", "√á√ùN");
+       countryList.put("SG", "S√ùNGAPUR");
+       countryList.put("TR", "T√úRK√ùYE");
        countryList.put("MY", "MALEZYA");
        return countryList;
     }
