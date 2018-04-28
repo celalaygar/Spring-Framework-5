@@ -59,7 +59,8 @@ INSERT INTO `student` VALUES
 ###### Second step : run the project
 
 #### - spring-mvc-hibernate
-this project consist (insert, update and delete) methods with hibernate and spring framework 5.
+
+Spring MVC Hibernate MySQL Integration CRUD Example. This project consist (insert, update and delete) methods with hibernate and spring framework 5.
 ###### First step : write the sql query into mysql workbench for mysql database
 ##### SQL QUERY
 ```
