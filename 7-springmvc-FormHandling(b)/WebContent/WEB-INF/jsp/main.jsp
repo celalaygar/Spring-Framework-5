@@ -9,7 +9,7 @@
 <body>
 	<h5>This is Main page</h5>
 
-	<a href="${pageContext.request.contextPath}/">main</a>
+	<a href="${pageContext.request.contextPath}/">Anasayfa</a>
 	<br />
 	<a href="${pageContext.request.contextPath}/showPersonelForm">Personel Formu</a>
 	<hr>
