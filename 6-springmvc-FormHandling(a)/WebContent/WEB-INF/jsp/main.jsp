@@ -11,7 +11,7 @@
 
 	<a href="${pageContext.request.contextPath}/">main</a>
 	<br />
-	<a href="${pageContext.request.contextPath}/showPersonelForm">showStudentForm</a>
+	<a href="${pageContext.request.contextPath}/showPersonelForm">Personel Formu</a>
 	<hr>
 
 
