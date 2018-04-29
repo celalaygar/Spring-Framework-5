@@ -34,6 +34,9 @@ how to use <form:select ... />, <form:radiobutton ... />, <form:radiobuttons ...
 ### 8 - springmvc-FormValidation(a)
 how to use <form:errors .....>  for Form Validation in spring mvc
 
+### 9 - springmvc-FormValidation(b)
+Beginner level form validation with hibernate-validator
+
 ### - spring-jdbc-1
 how to delete, update, select data for spring framework in maven project
 ###### First step : write the sql query into mysql workbench for mysql database
