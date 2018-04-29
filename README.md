@@ -1,14 +1,14 @@
 # Spring_Framework_5_denemeleri
-#### 1 - spring-framework dependency injection example
+### 1 - spring-framework dependency injection example
  this project is about spring dependency injection.  we are creating a maven project. We include the spring-context.jar in the pom.xml file. then we create and design the beans.xml file. We run latest the project
 
-#### 2 - spring-framework dependency injection example 
+### 2 - spring-framework dependency injection example 
  this project is about spring dependency injection. we create and design the beans.xml and beans2.xml file. We run the latest project with beans.xml and beans2.xml respectively
 
-#### 3 - spring-annotations(a)
+### 3 - spring-annotations(a)
  this project is about spring annotations(a). we create and design the beans.xml. then use init-methods and param methods in bean.xml
 
-#### 4 - spring-annotations(b)
+### 4 - spring-annotations(b)
    this project is about spring annotations(b).  @Autowired and @Qualifier("...") usage.
 ###### - first step: click context checkbox in beanx.xml->namespaces. 
 ###### - second step : then we have to write 
@@ -22,19 +22,19 @@
 </beans> 
 ``` 
 in beans.xml 
-#### 5 - springmvc-RequestMapping
+### 5 - springmvc-RequestMapping
  how to use @PathVariable | @RequestParam
 
-#### 6 - springmvc-FormHandling(a)
+### 6 - springmvc-FormHandling(a)
 how to use <form:input ... />, <form:textarea .../>, <form:checkboxes...../> for spring mvc....
 
-#### 7 - springmvc-FormHandling(b)
+### 7 - springmvc-FormHandling(b)
 how to use <form:select ... />, <form:radiobutton ... />, <form:radiobuttons ... />, for spring mvc...
 
-#### 8 - springmvc-FormValidation(a)
+### 8 - springmvc-FormValidation(a)
 how to use <form:errors .....>  for Form Validation in spring mvc
 
-#### - spring-jdbc-1
+### - spring-jdbc-1
 how to delete, update, select data for spring framework in maven project
 ###### First step : write the sql query into mysql workbench for mysql database
 ##### SQL QUERY
@@ -61,7 +61,7 @@ INSERT INTO `student` VALUES
 ``` 
 ###### Second step : run the project
 
-#### - spring-mvc-hibernate
+### - spring-mvc-hibernate
 
 Spring MVC Hibernate MySQL Integration CRUD Example. This project consist (insert, update and delete) methods with hibernate and spring framework 5.
 ###### First step : write the sql query into mysql workbench for mysql database
