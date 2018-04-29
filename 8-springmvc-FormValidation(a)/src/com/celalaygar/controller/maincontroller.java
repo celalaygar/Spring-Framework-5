@@ -60,7 +60,6 @@ public class maincontroller {
 			return "PersonelForm";
 		}
 
-		theModel.addAttribute("email", personel.getEmail());
 		theModel.addAttribute("personel", personel);
 		return "PersonelSaveResult";
 	}
