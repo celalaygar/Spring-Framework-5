@@ -35,7 +35,7 @@ how to use <form:select ... />, <form:radiobutton ... />, <form:radiobuttons ...
 how to use <form:errors .....>  for Form Validation in spring mvc
 
 ### 9 - springmvc-FormValidation(b) (form validation with hibernate-validator)
-Beginner level form validation with hibernate-validator. How to use @@NotNull, @Size in pojo class and use @InitBinder in controller class
+Beginner level form validation with hibernate-validator. How to use @@NotNull, @Email, @Size in pojo class and use @InitBinder in controller class
 
 ### - spring-jdbc-1
 how to delete, update, select data for spring framework in maven project
