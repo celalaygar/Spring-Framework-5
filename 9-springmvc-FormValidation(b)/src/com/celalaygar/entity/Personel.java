@@ -2,18 +2,19 @@ package com.celalaygar.entity;
 
 import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Size;
+import org.hibernate.validator.constraints.Email;
 
 public class Personel {
 
 	@NotNull
-	@Size(min=3,message="en az 3 karakter olmalý")
+	@Size(min=3,message="en az 3 karakter olmalÃ½")
 	private String firstname;
 	
 	@NotNull
-	@Size(max=10,message="en fazla 10 karakter olmalý.")
+	@Size(max=10,message="en fazla 10 karakter olmalÃ½.")
 	private String lastname;
 	
-	
+	@Email(message="email girilmeli")
 	private String email;
 	
 	
