@@ -53,6 +53,7 @@
 								<td>email</td>
 								<td><form:input id="email" path="email" type="text"
 										class="form:input-large" /></td>
+								<td><form:errors path="email" cssClass="error" /></td>
 							</tr>
 							<tr>
 								<td></td>
