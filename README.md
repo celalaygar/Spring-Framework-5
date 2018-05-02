@@ -58,7 +58,7 @@ CREATE TABLE `student` (
 ) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=latin1;
 
 INSERT INTO `student` VALUES 
-(1,'Ugurcan','Cetin','ugurcan2020@gmail.com'),
+(1,'fatih','Cetin','fatih2020@gmail.com'),
 (2,'Ayse','Korkmaz','ayse@gmail.com'),
 (3,'Mustafa','Agbaba','mustafa@gmail.com'),
 (4,'Veli','Sezer','veli@gmail.com'),
@@ -86,7 +86,7 @@ CREATE TABLE `student` (
 ) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=latin1;
 
 INSERT INTO `student` VALUES 
-(1,'Ugurcan','Cetin','ugurcan2020@gmail.com'),
+(1,'fatih','Cetin','fatih2020@gmail.com'),
 (2,'Ayse','Korkmaz','ayse@gmail.com'),
 (3,'Mustafa','Agbaba','mustafa@gmail.com'),
 (4,'Veli','Sezer','veli@gmail.com'),
