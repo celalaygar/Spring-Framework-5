@@ -39,7 +39,6 @@ public class StudentController {
 		
 		Student student=new Student(); 
 		theModel.addAttribute("student", student);
-		
 		return "student-form"; 
 	}
 	
@@ -48,7 +47,6 @@ public class StudentController {
 		
 		System.out.println(theStudent.getFirstName()+" "+theStudent.getLastName()+" "+theStudent.getEmail());
 		studentService.saveStudent(theStudent);
-		
 		return "redirect:/student/list";
 	}
 	
